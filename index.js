@@ -42,7 +42,7 @@ const pool = new Pool({
   }
 
   app.get('/', function (req, res) {
-    res.json({ Resultado: 'Bienvenido al Taller Despliegue Rest' })
+    res.json({ Resultado: 'Bienvenido al Taller Despliegue Rest - Railway' })
   });
 
   app.get('/usuarios', getUsuario)
